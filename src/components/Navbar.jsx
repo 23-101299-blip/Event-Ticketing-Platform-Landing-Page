@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="navbar-header">
       <div className="container navbar-container">
         <div className="logo">
-          <h2>Event<span className="gradient-text">Ticket</span></h2>
+          <h2>Vibe<span className="gradient-text">Pass</span></h2>
         </div>
         
         <nav className="nav-links">

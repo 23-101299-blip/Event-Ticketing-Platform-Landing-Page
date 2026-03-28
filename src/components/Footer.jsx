@@ -9,8 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <h2>Event<span className="gradient-text">Ticket</span></h2>
-            <p>{t('footer.rights')}</p>
+            <h2>Vibe<span className="gradient-text">Pass</span></h2>
           </div>
           
           <div className="footer-links">

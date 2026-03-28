@@ -24,7 +24,7 @@ const Preloader = ({ isLoading }) => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              EventTicketing
+              VibePass
             </motion.h2>
           </div>
         </motion.div>
