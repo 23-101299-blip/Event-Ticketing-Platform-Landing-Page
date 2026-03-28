@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "home": "Home",
+    "events": "Events",
+    "about": "About",
+    "contact": "Contact",
+    "bookTicket": "Book Ticket"
+  },
+  "hero": {
+    "title": "Discover Unforgettable Experiences",
+    "subtitle": "Book tickets for concerts, comedy shows, theater plays, and more. Join the best events in town.",
+    "cta": "Explore Events"
+  },
+  "eventsListing": {
+    "title": "Upcoming Events",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now"
+  },
+  "categories": {
+    "title": "Browse Categories",
+    "all": "All",
+    "music": "Music",
+    "comedy": "Stand-up Comedy",
+    "theater": "Theatre",
+    "workshops": "Workshops",
+    "talks": "TEDx & Talks",
+    "community": "Community"
+  },
+  "about": {
+    "title": "About Our Platform",
+    "description": "We bring you the best selection of live entertainment. From intimate workshops to grand concerts, we guarantee a seamless booking experience."
+  },
+  "featuredEvent": {
+    "badge": "Featured Event",
+    "title": "A Night Under The Stars",
+    "description": "Join us for an exclusive open-air concert featuring top local bands and breathtaking views.",
+    "date": "Dec 25",
+    "location": "Central Park"
+  },
+  "booking": {
+    "title": "Book Your Tickets",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "ticketsPlaceholder": "Number of Tickets",
+    "eventSelectPlaceholder": "Select Event",
+    "submit": "Confirm Booking",
+    "successMessage": "Booking confirmed! A copy of your ticket has been sent to your email.",
+    "errorMessage": "Please fill out all required fields correctly."
+  },
+  "testimonials": {
+    "title": "What Attendees Say"
+  },
+  "contact": {
+    "title": "Stay Updated",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe to Newsletter"
+  },
+  "footer": {
+    "rights": "© 2026 EventTicketing. All rights reserved."
+  }
+}

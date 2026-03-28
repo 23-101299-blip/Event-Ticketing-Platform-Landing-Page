@@ -1,0 +1,132 @@
+.about-section {
+  background-color: rgba(15, 23, 42, 0.7);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.title-underline-left {
+  height: 4px;
+  width: 60px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  margin-bottom: 1.5rem;
+  border-radius: 2px;
+}
+
+[dir="rtl"] .title-underline-left {
+  background: linear-gradient(-90deg, var(--primary), var(--secondary));
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.benefits-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 500;
+}
+
+.check-icon {
+  color: var(--secondary);
+}
+
+.about-visuals {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-card {
+  position: absolute;
+  background: var(--background-card);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.stats-card h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.stats-card p {
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.card-1 {
+  top: 10%;
+  left: 10%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.card-2 {
+  bottom: 10%;
+  right: 10%;
+  animation: float 7s ease-in-out infinite reverse;
+}
+
+.card-3 {
+  top: 40%;
+  right: 20%;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .title-underline-left {
+    margin: 0 auto 1.5rem auto;
+  }
+  
+  .benefits-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  [dir="rtl"] .benefits-list {
+    text-align: right;
+  }
+}
