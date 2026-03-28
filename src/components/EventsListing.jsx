@@ -44,10 +44,10 @@ const EventsListing = () => {
                 <div className="event-placeholder-img">
                   <img src={event.image} alt={event.title} className="event-img-real" />
                 </div>
-                <div className="event-category-badge">{event.category}</div>
+                <div className="event-category-badge">{t(`eventsItems.${event.id}.category`)}</div>
               </div>
               <div className="event-details">
-                <h3>{event.title}</h3>
+                <h3>{t(`eventsItems.${event.id}.title`)}</h3>
                 <div className="event-info">
                   <div className="info-item">
                     <Calendar size={16} className="icon" />
@@ -55,7 +55,7 @@ const EventsListing = () => {
                   </div>
                   <div className="info-item">
                     <MapPin size={16} className="icon" />
-                    <span>{event.location}</span>
+                    <span>{t(`eventsItems.${event.id}.location`)}</span>
                   </div>
                 </div>
                 <div className="event-actions">

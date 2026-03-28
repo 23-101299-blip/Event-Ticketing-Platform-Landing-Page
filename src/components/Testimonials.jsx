@@ -46,12 +46,12 @@ const Testimonials = () => {
                   />
                 ))}
               </div>
-              <p className="testi-content">"{testi.content}"</p>
+              <p className="testi-content">"{t(`testimonialsItems.${testi.id}.content`)}"</p>
               <div className="testi-author">
-                <div className="avatar">{testi.name.charAt(0)}</div>
+                <div className="avatar">{t(`testimonialsItems.${testi.id}.name`).charAt(0)}</div>
                 <div className="author-info">
-                  <h4>{testi.name}</h4>
-                  <span>{testi.role}</span>
+                  <h4>{t(`testimonialsItems.${testi.id}.name`)}</h4>
+                  <span>{t(`testimonialsItems.${testi.id}.role`)}</span>
                 </div>
               </div>
             </motion.div>

@@ -26,7 +26,7 @@ const ContactNewsletter = () => {
           
           <div className="newsletter-content">
             <h2>{t('contact.title')}</h2>
-            <p>Subscribe to our newsletter and be the first to know about new events, special offers, and platform updates.</p>
+            <p>{t('contact.subtitle')}</p>
             
             <form onSubmit={handleSubscribe} className="newsletter-form">
               <input 

@@ -52,7 +52,21 @@
   },
   "contact": {
     "title": "Stay Updated",
+    "subtitle": "Subscribe to our newsletter and be the first to know about new events, special offers, and platform updates.",
     "emailPlaceholder": "Enter your email",
     "subscribe": "Subscribe to Newsletter"
+  },
+  "eventsItems": {
+    "1": { "title": "Summer Music Fest", "location": "City Arena", "category": "Music" },
+    "2": { "title": "Tech Innovation Summit", "location": "Convention Center", "category": "Talks" },
+    "3": { "title": "Laugh Out Loud Comedy", "location": "Comedy Club", "category": "Comedy" },
+    "4": { "title": "Digital Arts Workshop", "location": "Creative Hub", "category": "Workshops" },
+    "5": { "title": "Community Green Day", "location": "Central Park", "category": "Community" },
+    "6": { "title": "Classic Drama Theatre", "location": "Grand Theatre", "category": "Theatre" }
+  },
+  "testimonialsItems": {
+    "1": { "name": "Sarah Jenkins", "role": "Music Enthusiast", "content": "The booking process was so smooth! I easily grabbed tickets to my favorite concert without any hassle." },
+    "2": { "name": "Ahmed Hassan", "role": "Event Organizer", "content": "An incredibly well-designed platform. I highly recommend it for discovering and managing events in the city." },
+    "3": { "name": "Emily Chen", "role": "Workshop Attendee", "content": "I love the UI and the animated sections. Finding tickets for workshops here is intuitive and very fast." }
   }
 }
