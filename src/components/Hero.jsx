@@ -51,9 +51,9 @@ const Hero = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <div className="image-placeholder">
-            <div className="glow-sphere"></div>
-            <div className="glow-sphere-2"></div>
+          <div className="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1600&q=80" alt="Concert Event" className="hero-img-real" />
+            <div className="glow-sphere-bg"></div>
           </div>
         </motion.div>
       </div>
