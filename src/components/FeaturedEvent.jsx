@@ -18,7 +18,7 @@ const FeaturedEvent = () => {
         >
           <div className="featured-image">
              <div className="featured-badge">{t('featuredEvent.badge')}</div>
-             <div className="abstract-art"></div>
+             <img src="https://loremflickr.com/800/800/night,stars,event" alt={t('featuredEvent.title')} className="featured-img-real" />
           </div>
           
           <div className="featured-content">

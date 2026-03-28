@@ -4,12 +4,12 @@ import { Calendar, MapPin, Users } from 'lucide-react';
 import './EventsListing.css';
 
 const events = [
-  { id: 1, title: 'Summer Music Fest', date: 'Aug 15', location: 'City Arena', category: 'Music', image: 'https://images.unsplash.com/photo-1540039155732-684735035727?auto=format&fit=crop&w=600&q=80', delay: 0 },
+  { id: 1, title: 'Summer Music Fest', date: 'Aug 15', location: 'City Arena', category: 'Music', image: 'https://loremflickr.com/600/400/concert', delay: 0 },
   { id: 2, title: 'Tech Innovation Summit', date: 'Sep 10', location: 'Convention Center', category: 'Talks', image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=600&q=80', delay: 0.1 },
   { id: 3, title: 'Laugh Out Loud Comedy', date: 'Oct 05', location: 'Comedy Club', category: 'Comedy', image: 'https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=600&q=80', delay: 0.2 },
   { id: 4, title: 'Digital Arts Workshop', date: 'Nov 12', location: 'Creative Hub', category: 'Workshops', image: 'https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=600&q=80', delay: 0.3 },
   { id: 5, title: 'Community Green Day', date: 'Dec 01', location: 'Central Park', category: 'Community', image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80', delay: 0.4 },
-  { id: 6, title: 'Classic Drama Theatre', date: 'Jan 20', location: 'Grand Theatre', category: 'Theatre', image: 'https://images.unsplash.com/photo-1507676184212-d0330a151fce?auto=format&fit=crop&w=600&q=80', delay: 0.5 },
+  { id: 6, title: 'Classic Drama Theatre', date: 'Jan 20', location: 'Grand Theatre', category: 'Theatre', image: 'https://loremflickr.com/600/400/theatre', delay: 0.5 },
 ];
 
 const EventsListing = () => {
